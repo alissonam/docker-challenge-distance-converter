@@ -1,6 +1,6 @@
-# Conversor de Medidas
+# Conversor de Distância
 
-Este projeto é um conversor de medidas de distância, desenvolvido com Flask e empacotado em um container Docker para fácil execução.
+Este projeto é um conversor de distância, desenvolvido com Flask e empacotado em um container Docker para fácil execução.
 
 ## Créditos
 
@@ -91,13 +91,13 @@ Se precisar parar e remover o container:
 Se precisar remover a imagem do Docker:
 
 ```sh
-docker rmi conversao-medidas
+docker rmi distance-converter
 ```
 
 ## Estrutura do Projeto
 
 ```
-conversao-medidas/
+docker-challenge-distance-converter/
 │── app.py             # Código principal da aplicação Flask
 │── templates/
 │   └── index.html     # Template HTML para renderização da página
